@@ -1,7 +1,7 @@
 OCR Image To Text Converter
 "OCR Image To Text Converter" offers seamless text extraction from images. With real-time progress tracking and Tesseract.js integration, digitizing documents is easy.
 
-Site Link: TechTinkerSpace
+Site Link: [TechTinkerSpace](https://techtinkerspace.me/)
 
 <p align="center">
   <img src="https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/fd2a4df4-2a52-4f33-b985-c7d6fbc641c1" alt="Choose file icon">
