@@ -22,4 +22,4 @@ If you want download or copy that text click sutable button
 
 mobile version using following type:-
 
-
+![image](https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/2f3935b9-0c99-4d3c-ace3-074a92e26893)  
