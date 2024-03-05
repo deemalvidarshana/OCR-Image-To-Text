@@ -20,11 +20,11 @@ If you want to download or copy that text, click the suitable button.
 
 Mobile version using the following type:
 
-<p >
+<p align="center">
   <img src="https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/2f3935b9-0c99-4d3c-ace3-074a92e26893" alt="Mobile Version" width="300">
   <img src="https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/b0f47827-90a2-44d8-b4a2-bb0fb1edb585" alt="Mobile Version" width="300">
 </p>
-<p>
+<p align="center">
   <img src="https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/eb91a680-e249-45b0-9f89-04b5bc7e5b77" alt="Mobile Version" width="300">
   <img src="https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/e01a6730-f586-4721-83ee-cddb55e7e238" alt="Mobile Version" width="300">
 </p>
