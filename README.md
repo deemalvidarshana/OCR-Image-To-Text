@@ -16,5 +16,10 @@ then add the image.
 
 then click the Start Button 
 
+![image](https://github.com/deemalvidarshana/OCR-Image-To-Text/assets/155978063/b79961d8-e9af-4b32-83fd-a6f1188bc1b2)
+
+If you want download or copy that text click sutable button
+
+mobile version using following type:-
 
 
