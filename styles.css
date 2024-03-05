@@ -1,0 +1,122 @@
+body {
+    padding: 0 100px;
+    font-family: sans-serif;
+    background-color: #f5f5f5; 
+}
+
+.container {
+    margin-top: 50px;
+    color: hsl(256, 84%, 46%); 
+    
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.upper input[type="file"] {
+    flex-grow: 1;
+    
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+.green-button {
+    background-color: rgb(27, 120, 27);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 20px;
+    
+}
+.green-button:hover{
+    background-color: #44a448;
+}
+p{
+    text-align: center;
+   
+}
+
+
+.button, .progress {
+    margin-left: 0px;
+   
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container, .text-container {
+    flex: 1;
+    border: 10px solid #f5f1f1; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.993); 
+    background-color: #ffffff; 
+   
+}
+
+.image-container img, .text-container textarea {
+    width: 100%;
+    height: 430px; 
+    object-fit: contain; 
+}
+
+.text-container textarea {
+    resize: none; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    padding: 0px; 
+ 
+}
+
+.progress {
+    margin-left: 20px; /* Adjusted for alignment */
+    font-size: 16px; /* Text size for progress */
+}
+
+/* Existing CSS styles */
+
+/* Add responsive media query for devices with a width of less than or equal to 768px */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px; /* Reduce padding for smaller screens */
+    }
+
+    .container, .upper, .bottom {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .upper, .bottom {
+        align-items: center; /* Center-align the flex items */
+    }
+
+    .image-container, .text-container {
+        margin: 10px 0; /* Add margin between vertically stacked elements */
+        width: 100%; /* Ensure full width usage */
+    }
+
+    .image-container img, .text-container textarea {
+        height: auto; /* Adjust height automatically */
+    }
+
+    .green-button {
+        padding: 10px 20px; /* Adjust padding */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    /* Adjust the progress and button sizes for better usability on small screens */
+    .progress, .button {
+        width: 100%; /* Full width */
+        margin-top: 10px; /* Spacing between elements */
+    }
+}

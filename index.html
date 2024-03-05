@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optical Character Recognition from Image</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+    <h1>Image to Text Converter</h1>
+    <p>An online image to text converter to extract text from images. Upload your photo, to get text file instantly.</p>
+    <div class="container">
+        <div class="upper">
+            <label for="fileInput" class="green-button"><i class="fas fa-file-upload"></i> Choose File:</label>
+            <input type="file" id="fileInput" style="display: none;">
+            <div class="placement">
+            <button id="startButton" class="green-button">Start</button>
+           </div>
+        </div>
+        <div class="progress"></div>
+        <div class="bottom">
+            <div class="image-container">
+                <label for="fileInput" class="">
+                <input type="file" id="fileInput" style="display: none;">
+                <img src="https://onedrive.live.com/embed?resid=298BBA1D7F678798%21370&authkey=%21AKuLDMtlMld32hA&width=1024&height=1024" id="imagePreview"  >
+                
+            </label>
+            </div>
+            <div class="text-container">
+                <textarea id="textOutput" placeholder="Extracted text will appear here..."></textarea>
+                <button id="downloadButton" class="green-button"><i class="fas fa-download"></i> </button>
+                <button id="copyButton" class="green-button"><i class="fas fa-copy"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.13/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
